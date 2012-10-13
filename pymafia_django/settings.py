@@ -1,7 +1,8 @@
 # Django settings for pymafia_django project.
 import dj_database_url
+import os
 
-DEBUG = True
+DEBUG = bool(int(os.environ.get('DEBUG')))
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
