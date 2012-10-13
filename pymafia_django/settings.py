@@ -1,8 +1,6 @@
 # Django settings for pymafia_django project.
 import dj_database_url
 
-DATABASES = {'default': dj_database_url.config(default='postgres://localhost')}
-
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -152,3 +150,4 @@ LOGGING = {
         },
     }
 }
+DATABASES = {'default': dj_database_url.config(default='postgres://localhost')}
