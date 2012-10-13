@@ -1,0 +1,3 @@
+[submodule "pymafia"]
+	path = pymafia
+	url = git@github.com:travisby/pymafia.git
